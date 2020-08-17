@@ -1,0 +1,23 @@
+.card_{
+    border: 1px solid black;
+    width: 24rem;
+}
+.circle_on_logo{
+    width:100px;
+    height: 100px;
+    border: 1px dotted grey;
+    margin:50px auto;
+    border-radius: 50%;
+    line-height: 100px;
+}
+.card_ .circle_on_logo a{
+    font-size: 50px;
+}
+.card_ h4{
+    font-weight: bold;
+}
+.card_ .para{
+    font-size: 20px;
+    text-align:justify;
+    padding: 20px;
+}

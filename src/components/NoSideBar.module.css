@@ -1,0 +1,97 @@
+.firstdiv{
+    padding: 150px 0 0 0;
+    text-align: center;
+}
+.firstdiv h1{
+    letter-spacing: 10px;
+}
+.firstdiv p{
+    font-size: 30px;
+    color: #f2f2f2;
+}
+.fourPart{
+    max-width: 1300px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    border-bottom: 1px double dimgray;
+    padding-bottom: 20px;
+}
+.fourPart .onediv{
+    display: grid;
+    grid-template-columns: 1300px;
+    justify-content: space-between;
+}
+.mollis_col h3{
+    margin: 30px 0;
+    letter-spacing: 5px;
+}
+.mollis_col img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.mollis_col p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 0;
+}
+/*second Part */
+.commodo{
+    color: black;
+    padding-top: 100px;
+}
+.commodo h1,.commodo p{
+    text-align: center;
+}
+.commodo .flex_use{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    background: #f5f5f5;
+}
+.lastdiv{
+    max-width: 1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.lastdivinner{
+    display: grid;
+    grid-template-columns: repeat(2,300px) 700px;
+    box-sizing: border-box;
+    margin:100px 0;
+}
+.accumsan h3,.faucibus h3,.ali h3{
+    letter-spacing: 3px;
+    margin: 0 0 20px 0;
+}
+.accumsan a,.faucibus a{
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    color: black;
+}
+.accumsan a:hover,.faucibus a:hover{
+    text-decoration: none;
+    color: black;
+}
+.ali p{
+    text-align: justify;
+    font-size: 20px;
+}
+.ali a{
+    font-size: 40px;
+    padding: 0 20px;
+}
+.ali a:hover{
+    color: black;
+}
+.copyright{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}

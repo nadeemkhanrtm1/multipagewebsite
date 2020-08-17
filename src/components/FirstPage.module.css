@@ -1,0 +1,194 @@
+img{
+    width:100vw;
+    height: 80vh;
+    @media screen and (max-width:1024px and min-width:768px){
+        width:300px;
+        height:500px;
+    } 
+}
+.banner_content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.banner_content h1{margin: 0;
+    padding-bottom: 10px;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+.banner_content p{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.banner_content .button1{
+    padding: 15px 50px;
+    border: none;
+    background: blue;
+    border-radius: 20px;
+    letter-spacing: 5px;
+    width: 50%;
+}
+.banner_content .button1:hover{
+    color: white;
+}
+.banner_content .button2{
+    width: 50%;
+    padding: 15px 50px;
+    border: none;
+    background: blue;
+    border-radius: 20px;
+    letter-spacing: 5px;
+}
+.banner_content .button2:hover{
+    color: white;
+}
+.second_part{
+    text-align: center;
+    margin: 100px 0 200px 0;
+}
+.second_part h1,.commodo h1{
+    letter-spacing: 5px;
+}
+.second_part p,.commodo p{
+    font-size: 30px;
+}
+.second_part .card_flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 70px auto 0 auto;
+    justify-content: space-between;
+}
+.commodo{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+}
+.commodo h1,.commodo p{
+    text-align: center;
+}
+.commodo .flex_use{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+                                            /*fourth-part-of-first-page*/
+.fourPart{
+    max-width: 1300px;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+.fourPart .onediv{
+    display: grid;
+    grid-template-columns: 850px 400px;
+    justify-content: space-between;
+}
+.mollis_col h3{
+    margin: 30px 0;
+    letter-spacing: 5px;
+}
+.mollis_col img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.mollis_col p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.seconddiv{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+.magna_row{
+    border-bottom: 1px dotted grey;
+}
+.magna_row h4{
+   letter-spacing: 3px;
+   margin: 30px 20px 20px 0;
+}
+.magna_row p{
+    text-align: justify;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.magna_row button{
+   background: transparent;
+   color: black;
+   font-size: 20px;
+   padding: 10px 30px;
+   letter-spacing: 3px;
+   border:1px solid black;
+   border-radius: 5px;
+   transition: 0.4s linear;
+}
+.magna_row button:hover{
+    background: black;
+    color: white;
+}
+.ante_col h4{
+    letter-spacing: 3px;
+    margin: 20px 0 20px 0;
+}
+.ante_col a{
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+}
+.ante_col a:hover{
+    text-decoration: none;
+}
+
+                                        /*last container */
+.last{
+    background: #f5f5f5;
+}
+.lastdiv{
+    max-width: 1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.lastdivinner{
+    display: grid;
+    grid-template-columns: repeat(2,300px) 700px;
+    box-sizing: border-box;
+    margin:100px 0;
+}
+.accumsan h3,.faucibus h3,.ali h3{
+    letter-spacing: 3px;
+    margin: 0 0 20px 0;
+}
+.accumsan a,.faucibus a{
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    color: black;
+}
+.accumsan a:hover,.faucibus a:hover{
+    text-decoration: none;
+    color: black;
+}
+.ali p{
+    text-align: justify;
+    font-size: 20px;
+}
+.ali a{
+    font-size: 40px;
+    padding: 0 20px;
+}
+.ali a:hover{
+    color: black;
+}
+.copyright{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}

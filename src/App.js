@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import NavigationBar from "./components/NavigationBar";
+import FirstPage from "./components/FirstPage";
+import LeftSideBar from "./components/LeftSideBar";
+import RightSideBar from './components/RightSideBar';
+import NoSideBar from "./components/NoSideBar";
+import {BrowserRouter,Route,Switch} from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <React.Fragment>
+    <NavigationBar/>
+    <Switch>
+      <Route path="/" exact component={FirstPage}/>
+      <Route path="/leftsidebar" component={LeftSideBar}/>
+      <Route path="/rightsidebar" component={RightSideBar}/>
+      <Route path="/nosidebar" component={NoSideBar}/>
+    </Switch>
+    </React.Fragment>
+    </BrowserRouter>
   );
 }
 
